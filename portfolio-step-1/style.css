@@ -25,29 +25,33 @@ body {
 .page-header .container,
 .page-footer .container {
   max-width: 1408px;
-  text-align: right;
+  text-align: end;
 }
 
 .page-header a {
-  margin-left: 56px;
+  margin-left: 200px;
   color: #288be6;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
+  text-align: right;
 }
 
 .header-email {
   padding-left: 30px;
   background-image: url("img/icon-email-header.svg");
+  text-align: end;
 }
 
 .header-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
+  text-align: center;
 }
 
 .hero-image {
   margin-bottom: 620px;
+  text-align: center;
 }
 
 .hero-image .container {
@@ -61,6 +65,7 @@ body {
   font-size: 88px;
   line-height: 96px;
   font-weight: 400;
+  text-align: center;
 }
 
 .hero-image p {

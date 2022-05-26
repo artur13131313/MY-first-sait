@@ -8,7 +8,7 @@ body {
   background-color: #f2f4f6;
   background-image: url("img/hero-bg.jpg");
   background-repeat: no-repeat;
-  background-position: top center;
+  border: #288be6 solid 2px;
 }
 
 .container {
@@ -25,28 +25,25 @@ body {
 .page-header .container,
 .page-footer .container {
   max-width: 1408px;
-  text-align: end;
+  text-align: right;
 }
 
 .page-header a {
-  margin-left: 200px;
+  margin-left: 56px;
   color: #288be6;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
-  text-align: right;
 }
 
 .header-email {
   padding-left: 30px;
   background-image: url("img/icon-email-header.svg");
-  text-align: end;
 }
 
 .header-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
-  text-align: center;
 }
 
 .hero-image {
@@ -65,7 +62,6 @@ body {
   font-size: 88px;
   line-height: 96px;
   font-weight: 400;
-  text-align: center;
 }
 
 .hero-image p {
@@ -173,16 +169,19 @@ body {
   background-color: #288be6;
   color: #ffffff;
 }
+.button:hover {
+  background-color: blue;
+  color: magenta;
+}
 
 .page-footer {
   padding: 40px 0;
   background-color: #00417d;
-  color: #ffffff;
 }
 
 .page-footer a {
   margin-left: 56px;
-  color: inherit;
+  color: #ffffff;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -196,4 +195,24 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.my__fist__saite {
+  background-color: aqua;
+  max-width: 50%;
+  margin: 0 auto;
+  border: #288be6 solid 3px;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.my__fist__saite p {
+  font-size: 30px;
+  margin: 15px;
+  font-weight: 700;
+  color: rgb(0, 10, 99);
 }

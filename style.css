@@ -169,6 +169,10 @@ body {
   background-color: #288be6;
   color: #ffffff;
 }
+.button:hover {
+  background-color: blue;
+  color: magenta;
+}
 
 .page-footer {
   padding: 40px 0;
@@ -191,4 +195,24 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.my__fist__saite {
+  background-color: aqua;
+  max-width: 50%;
+  margin: 0 auto;
+  border: #288be6 solid 3px;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.my__fist__saite p {
+  font-size: 30px;
+  margin: 15px;
+  font-weight: 700;
+  color: rgb(0, 10, 99);
 }

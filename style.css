@@ -90,6 +90,7 @@ body {
 
 .intro h3,
 .portfolio h3 {
+  text-align: center;
   margin: 0 0 12px;
   font-size: 28px;
   line-height: 40px;
@@ -160,7 +161,7 @@ body {
 }
 
 .button {
-  padding: 6px 20px;
+  padding: 15px 40px;
   display: inline-block;
   vertical-align: baseline;
   text-decoration: none;
@@ -168,6 +169,8 @@ body {
   border-radius: 4px;
   background-color: #288be6;
   color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
 }
 .button:hover {
   background-color: blue;
@@ -202,16 +205,16 @@ body {
 }
 
 .my__fist__saite {
-  background-color: aqua;
+  background-color: rgb(200, 245, 245);
   max-width: 50%;
   margin: 0 auto;
-  border: #288be6 solid 3px;
+  border: #011e39 solid 3px;
   padding: 5px;
   border-radius: 50px;
 }
 
 .my__fist__saite p {
-  font-size: 30px;
+  font-size: 35px;
   margin: 15px;
   font-weight: 700;
   color: rgb(0, 10, 99);

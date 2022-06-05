@@ -20,6 +20,7 @@ body {
 .page-header {
   margin: 0 0 160px;
   padding: 32px 0 32px;
+  font-size: 16px;
 }
 
 .page-header .container,
@@ -35,7 +36,10 @@ body {
   background-repeat: no-repeat;
   background-position: left;
 }
-
+.rs img{
+  max-width: 10%;
+  max-height: 10%;
+}
 .header-email {
   padding-left: 30px;
   background-image: url("img/icon-email-header.svg");
@@ -59,9 +63,9 @@ body {
 .heading {
   margin: 0 0 16px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 88px;
+  font-size: 150px;
   line-height: 96px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .hero-image p {
@@ -71,7 +75,7 @@ body {
 }
 
 .intro {
-  margin: 0 0 120px;
+  margin: 0 0 40px;
 }
 
 .subheading {
@@ -107,17 +111,36 @@ body {
 }
 
 .skills-list dt {
-  padding-left: 32px;
   background-repeat: no-repeat;
   background-position: left;
 }
 
 .skill-html {
+  padding-left: 32px;
   background-image: url("img/icon-html.svg");
 }
 
 .skill-css {
+  padding-left: 32px;
   background-image: url("img/icon-css.svg");
+}
+
+.skill-git img {
+  max-width: 4%;
+  max-height: 4%;
+}
+
+.skill-figma img {
+  max-width: 3%;
+  max-height: 3%;
+}
+.skill-js img {
+  max-width: 4%;
+  max-height: 4%;
+}
+.skill-github img {
+  max-width: 4%;
+  max-height: 4%;
 }
 
 .level {

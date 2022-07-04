@@ -229,10 +229,10 @@ body {
 }
 
 .my__fist__saite {
-  background-color: rgb(200, 245, 245);
+  background-color: rgb(182, 238, 238);
   max-width: 50%;
   margin: 0 auto;
-  border: #011e39 solid 3px;
+  border: #021f3b solid 3px;
   padding: 5px;
   border-radius: 50px;
 }
@@ -241,5 +241,5 @@ body {
   font-size: 35px;
   margin: 15px;
   font-weight: 700;
-  color: rgb(0, 10, 99);
+  color: rgb(2, 13, 114);
 }

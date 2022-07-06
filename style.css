@@ -49,7 +49,10 @@ body {
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
 }
-
+.image__user{
+  border-radius: 50px;
+  border: #00417d 2px solid;
+}
 .hero-image {
   margin-bottom: 620px;
   text-align: center;
